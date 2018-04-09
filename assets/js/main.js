@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var googleAPIkey = "AIzaSyDjoG9b-qqRgMcdpiNWXHei7WpRu1BmuBk";
 
@@ -130,3 +131,14 @@ function getwebcams(lat, lon, lat2, lon2) {
       });
     }
 
+=======
+$( document ).ready(function(){
+    $(".button-collapse").sideNav();
+
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+    setInterval(function(){
+        $('.carousel').carousel('next');
+    }, 4000);
+})
+>>>>>>> 14903d88e8ab96c515d1ddc1280f1a2e8d25b7f2
