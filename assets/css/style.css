@@ -1,11 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 37722128378709530c226eda8ebd7d46d391f948
 @import url('https://fonts.googleapis.com/css?family=Lobster|Passion+One');
 
-body {
-    background-color: 
-}
+
 
 .brand-logo { 
     font-family: 'Passion One';
@@ -19,6 +20,7 @@ body {
 
 .main-container {
     margin: 0 auto;
+    padding: 20px;
     width: 80%;
 }
 
@@ -57,6 +59,32 @@ main p {
 }
 
 
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The outside container goes away on the tablet/phone */
+    .main-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* The outside container goes away on the tablet/phone */
+    .main-container {
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
 /* Materialize */
 
 body {
@@ -67,4 +95,8 @@ body {
 main {
     flex: 1 0 auto;
 }
+<<<<<<< HEAD
 >>>>>>> 14903d88e8ab96c515d1ddc1280f1a2e8d25b7f2
+=======
+
+>>>>>>> 37722128378709530c226eda8ebd7d46d391f948
