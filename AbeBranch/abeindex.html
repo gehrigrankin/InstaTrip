@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>InstaTrip - Page 2</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">InstaTrip</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="..\Project\index.html">Back to Home</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="..\Project\index.html">Back to Home</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br><br>
+        <h1 class="header orange">New York</h1>
+        <div class="row center"></div>
+        <div class="row center"></div>
+        <br><br>
+
+      </div></div>
+    <div class="parallax"><img src="nycbackground.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+
+        <br><br>
+
+  <div id="map"></div>
+  <script>
+    function initMap(){
+        var options = {
+        zoom:10,
+        center:{lat:40.71297, lng:-74.00367}
+      }
+     
+      var map = new google.maps.Map(document.getElementById('map'), options);
+
+      google.maps.event.addListener(map, 'click', function(event){
+        addMarker({coords:event.latLng});
+      });
+
+      for(var i = 0;i < markers.length;i++){
+        addMarker(markers[i]);
+      }
+
+      function addMarker(props){
+        var marker = new google.maps.Marker({
+          position:props.coords,
+          map:map,
+        });
+        console.log(addMarker)
+
+    
+        if(props.iconImage){
+            marker.setIcon(props.iconImage);
+        }
+
+        if(props.content){
+          var infoWindow = new google.maps.InfoWindow({
+            content:props.content
+          });
+
+          marker.addListener('click', function(){
+            infoWindow.open(map, marker);
+          });
+        }
+
+  </script>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+        </div></div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+        </div></div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+        </div></div></div>
+  
+  <br>
+
+  <div id="food-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br><br>
+        <h1 class="header2 orange">Food</h1>
+        <div class="row center"></div>
+        <div class="row center"></div>
+        <br>
+
+      </div></div>
+    <div class="parallax"><img src="foodbackground.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+
+  <br><br>
+
+<div class="widget_wrap" style="width:100%;height:504px;display:inline-block;">
+      <iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=280&theme=red&hideCitySearch=on&hideResSearch=on&widgetType=large&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe></div>
+
+  <div id="event-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br><br>
+        <h1 class="header3 orange">Events</h1>
+        <div class="row center"></div>
+        <div class="row center"></div>
+        <br><br>
+
+      </div></div>
+    <div class="parallax"><img src="eventbackground.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <div w-type="event-discovery" w-tmapikey="mZOjnlMbAIGjAslF52diKIpwAZu1J21B" w-googleapikey="AIzaSyA_JZiY-F_Ow1z1gVBH77rmJZveSWOo6PE" w-keyword="" w-theme="listview" w-colorscheme="dark" w-width="100%" w-height="550" w-size="25" w-border="2" w-borderradius="0" w-postalcode="" w-radius="25" w-period="week" w-layout="fullwidth" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-sorting="groupByName" w-countrycode="US" w-source="" w-city="New York" w-latlong=""></div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="event-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br><br>
+        <h1 class="header3 orange">Weather</h1>
+        <div class="row center"></div>
+        <div class="row center"></div>
+        <br><br>
+
+      </div></div>
+    <div class="parallax"><img src="weatherbackground.jpg" alt="Unsplashed background img 1"></div>
+      </div></div>
+
+  <footer class="page-footer teal">
+    <h3>Current Conditions:</h3>
+    <div class="city"></div>
+    <div class="temp"></div>
+    <div class="conditions"></div>
+    <div class="wind"></div>
+    <div class="wind direction"></div>
+    <div class="humidity"></div>
+  </div>
+
+
+  <!--  Scripts-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  
+    var APIKey="515dbd56022ab09ec9c4044b59230eee";
+
+    var queryURL="https://api.openweathermap.org/data/2.5/weather?q=New%20York&APPID=515dbd56022ab09ec9c4044b59230eee&units=imperial";
+
+      $.ajax({
+        url: queryURL,
+        method: "GET"
+      })
+
+      .then(function(data){
+        console.log(queryURL);
+        console.log(data);
+      }
+
+      $(".city").html(data.name + "Weather Details");
+      $(".temp").html(data.main.temp +" degrees F");
+      $(".cond").html("Current Conditions: " + data.weather.main);
+      $(".wind").html("Wind Speed: " + data.wind.speed);
+      $(".humidity").html("Humidity: " + data.main.humidity + "%");
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_JZiY-F_Ow1z1gVBH77rmJZveSWOo6PE&callback=initMap">
+  </script>
+
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+    #map {
+      height: 50%;
+      width: 100%
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      // Styles a map in night mode.
+      var map = new google.maps.Map(document.getElementById('map'), {
+      center:{lat:40.71297, lng:-74.00367},
+        zoom: 11,
+        styles: [
+          {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+          {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+          {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+          {
+            featureType: 'administrative.locality',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#d59563'}]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#d59563'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'geometry',
+            stylers: [{color: '#263c3f'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#6b9a76'}]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{color: '#38414e'}]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#212a37'}]
+          },
+          {
+            featureType: 'road',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#9ca5b3'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry',
+            stylers: [{color: '#746855'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#1f2835'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#f3d19c'}]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'geometry',
+            stylers: [{color: '#2f3948'}]
+          },
+          {
+            featureType: 'transit.station',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#d59563'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [{color: '#17263c'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#515c6d'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.stroke',
+            stylers: [{color: '#17263c'}]
+          }
+        ]
+      });
+
+}
+  </script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_JZiY-F_Ow1z1gVBH77rmJZveSWOo6PE&callback=initMap" async defer></script>
+  <script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/event-discovery/1.0.0/lib/main-widget.js"></script>
+  </body>
+</html>

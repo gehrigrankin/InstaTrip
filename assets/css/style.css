@@ -62,31 +62,83 @@ main .row {
     font-size: 36px;
     margin: 0;
 }
+
+#inside-container {
+    padding: 0 75px;
+}
 #city-main-pic {
     position: relative;
+}
+#city-main-pic img{
+    position: relative;
 
+    border-radius: 2.5px;
 }
 
 #city-main-pic-text { 
     position: absolute;
-    bottom: 15px;
-    left: 200px;
+    top: 5px;
+    left: 5px;
 
+    background-color: rgba(0,0,0,0.8);
     font-family: 'lobster';
     font-size: 48px;
-    padding: -45px auto !important;
+    padding: 5px 10%;
+    border-radius: 2.5px; 
 }
-
-
-
 #city-container p {
+    position: relative;
+
     padding: 5px;
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     border-radius: 5px;
 
     margin: 0 -5px;
 }
 
+
+.col .weather{
+    padding-left: 0;
+}
+.weather .card{
+    padding-left: 0;
+
+    background-image: url('../images/weather-background.png');
+}
+
+#degree-F {
+    font-size: 24px;
+    position: absolute;
+    top: 25px;
+}
+#degree-num {
+    font-size: 72px;
+}
+#weather-icon {
+   margin-left: 10px;
+}
+
+
+.food-pics .row, .food-pics .col {
+    padding: 0;
+}
+
+.food-pics .rand-food-pic {
+    position: relative;
+}
+.food-pics img {
+    border-radius: 2.5px;
+    border: 1px solid white;
+}
+.food-pics p {
+    position: absolute;
+    top: 25px;
+}
+
+
+.resturaunt .col{
+    padding-right: 0;
+}
 
 
 
@@ -99,6 +151,10 @@ main .row {
     .main-container {
         width: 100%;
     }
+    #inside-container {
+        padding: 0 25px;
+    }
+
 
     #car-item-1 img{
         height: 450px;
@@ -114,6 +170,10 @@ main .row {
     #car-item-4 img{
         height: 450px;
     }
+
+    .weather .col{
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -122,6 +182,15 @@ main .row {
         width: 100%;
         padding: 0px;
     }
+    #inside-container {
+        padding: 0 5px;
+    }
+
+    .city-main-pic-text {
+        font-size: 10px !important;
+    }
+
+    
 }
 
 
