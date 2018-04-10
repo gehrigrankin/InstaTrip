@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 
 var googleAPIkey = "AIzaSyDjoG9b-qqRgMcdpiNWXHei7WpRu1BmuBk";
 
@@ -132,9 +132,9 @@ function getwebcams(lat, lon, lat2, lon2) {
       });
     }
 
-=======
-=======
->>>>>>> 37722128378709530c226eda8ebd7d46d391f948
+
+
+
 $( document ).ready(function(){
     $(".button-collapse").sideNav();
 
@@ -143,9 +143,9 @@ $( document ).ready(function(){
     setInterval(function(){
         $('.carousel').carousel('next');
     }, 4000);
-<<<<<<< HEAD
+
 })
->>>>>>> 14903d88e8ab96c515d1ddc1280f1a2e8d25b7f2
-=======
-});
->>>>>>> 37722128378709530c226eda8ebd7d46d391f948
+
+
+
+
