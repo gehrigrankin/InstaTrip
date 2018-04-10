@@ -6,7 +6,9 @@
 >>>>>>> 37722128378709530c226eda8ebd7d46d391f948
 @import url('https://fonts.googleapis.com/css?family=Lobster|Passion+One');
 
-
+nav form {
+    width: 25%;
+}
 
 .brand-logo { 
     font-family: 'Passion One';
@@ -23,39 +25,66 @@
     padding: 20px;
     width: 80%;
 }
+.main-container .row{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+main .row {
+    margin: 0 auto;
+}
+
 
 #car-item-1 img{
-    height: 550px;
+    height: 500px;
 
 }
 #car-item-2 img{
-    height: 550px;
+    height: 500px;
 }
-#car-item-3 {
-    
+#car-item-3 img{
+    height: 500px;
+
 }
-#car-item-4 {
-   
+#car-item-4 img{
+    height: 500px;
 }
 
 
-#city-name {    
-    position: fixed;
-    left: 20px;
+
+.main-cities-text {
+    font-family: lobster;
+    font-size: 36px;
+    margin: 0;
+}
+#city-main-pic {
+    position: relative;
+
+}
+
+#city-main-pic-text { 
+    position: absolute;
+    bottom: 15px;
+    left: 200px;
 
     font-family: 'lobster';
-    font-size: 36px;
+    font-size: 48px;
     padding: -45px auto !important;
 }
 
 
 
-main p {
+#city-container p {
     padding: 5px;
     border: 3px solid black;
     border-radius: 5px;
 
-    margin: 5px -5px;
+    margin: 0 -5px;
 }
 
 
@@ -65,10 +94,25 @@ main p {
   These rules take effect when the browser's width
   is either 768px or less.
 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     /* The outside container goes away on the tablet/phone */
     .main-container {
         width: 100%;
+    }
+
+    #car-item-1 img{
+        height: 450px;
+    
+    }
+    #car-item-2 img{
+        height: 450px;
+    }
+    #car-item-3 img{
+        height: 450px;
+    
+    }
+    #car-item-4 img{
+        height: 450px;
     }
 }
 
