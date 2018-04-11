@@ -5,6 +5,8 @@ $(document).ready(function () {
     var city = [""];
     var lat; //Latitude
     var lon; //Longitude
+    $("#lat2").hide();
+    $("#lon2").hide();
     //Variable to old city value from user input
     var c = document.getElementById("citySearch").value;
     //!!REMOVE AFTER DEBUGGING
