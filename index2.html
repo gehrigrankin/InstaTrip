@@ -96,12 +96,16 @@
                                     lon2 = data.results[0].geometry.bounds.southwest.lng;
                                     $("#lat2").val(lat2);
                                     $("#lon2").val(lon2);
+                                    latitude = data.results[0].geometry.location.lat;
+                                    longitude = data.results[0].geometry.location.lng;
+                                    $("#latitude").val(latitude);
+                                    $("#longitude").val(longitude);
                                     // lat  and lon perameters 
                                     console.log(lat + lon + lat2 + lon2);
                                     // end ajax call 1
                                     //OpenWeatherMap API
                                     var weatherAPIKey = "743a4ef3c30935fe19ecbad14f631fae";
-                                    var weatherQueryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=" + weatherAPIKey;
+                                    var weatherQueryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&APPID=" + weatherAPIKey;
                                     console.log(weatherQueryURL);
                                     // Performing our AJAX GET request
                                     $.ajax({
@@ -366,7 +370,7 @@
                                 }
                                 </script>
                                 <div id="results-main">
-                                    
+
                                 </div>
                             </div>
                     </div>

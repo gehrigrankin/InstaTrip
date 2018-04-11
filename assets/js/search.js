@@ -1,20 +1,21 @@
 $("#search-button").on("click", function () {
-    var category = "lodging"; //Assign variable equal to data-category value
+    var category = "hotels"; //Assign variable equal to data-category value
     //!!REMOVE AFTER DEBUGGING
     console.log("Search Category: " + category);
     //Empty results-main div of any previous results
     $("#results-main").empty();
 
     //Assign variables to hold latitude and longitude values
-    var latitude = $("#lat").val();
-    var longitude = $("#lon").val();
+    //var latitude = $("#lat").val();
+    //var longitude = $("#lon").val();
     //Assemble & format latitude, longitude for query URL
     var location = "&location=" + latitude + "," + longitude + "&radius=500";
+    var location = $("#city-main-pic-text").text();
     var urlKey = "&key=AIzaSyBKV1JVEtr31cn9Hpi6L8d-dCN8cCSQISc";
     //Assigns variable to user input for no. results to return
     var resultsNum = $("#number").value;
     //Assemble complete query URL
-    var queryURL = "https://maps.googleapis.com/maps/api/place/textsearch/json?" + "&query=" + category + location + urlKey;
+    var queryURL = "https://maps.googleapis.com/maps/api/place/textsearch/json?" + "&query=" + category + "+" + location + urlKey;
     //!!REMOVE AFTER DEBUGGING
     console.log("Search: " + queryURL);
     // Performing our AJAX GET request
