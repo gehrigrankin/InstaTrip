@@ -1,10 +1,5 @@
     function initMap(){
-        var options = {
-        center:{lat:34.0522, lng:-118.2437},
-        zoom: 8,
-      }
-     
-      var map = new google.maps.Map(document.getElementById('map'), options);
+
 
       google.maps.event.addListener(map, 'click', function(event){
         addMarker({coords:event.latLng});

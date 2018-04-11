@@ -1,9 +1,12 @@
-$( document ).ready(function(){
-    $(".button-collapse").sideNav();
+// $( document ).ready(function(){
+//     $(".button-collapse").sideNav();
 
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
+//     $('.carousel.carousel-slider').carousel({fullWidth: true});
 
-    setInterval(function(){
-        $('.carousel').carousel('next');
-    }, 4000);
-});
+//     setInterval(function(){
+//         $('.carousel').carousel('next');
+//     }, 4000);
+
+
+
+// });
