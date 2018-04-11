@@ -150,6 +150,7 @@
                                             iconHTML.attr("class", "weather-icon");
                                             //Update weather div with the temp and weather icon
                                             weatherDiv.append(pTemp, pDesc, iconHTML);
+                                            $("#weather-desc").text(weatherDesc);
                                             //Update page with the weather div content
                                             $("#result").append(weatherDiv);
                                         });
@@ -158,7 +159,7 @@
                                     var endpoint2 =
                                         "https://webcamstravel.p.mashape.com/webcams/list/bbox=" + lat + "," + lon + "," + lat2 + "," + lon2 + "?show=webcams%3Aimage%2Clocation";
                                     console.log(endpoint2);
-var data2 = "";
+                                    var data2 = "";
                                     $.ajax({
                                         url: endpoint2,
                                         type: "POST", // The HTTP Method
@@ -174,7 +175,7 @@ var data2 = "";
                                         console.log(data2);
                                         $(".webcam").empty();
                                         var thisli = "";
-                                         for (var i = 0; i < data2.result.webcams.length; i++) {
+                                        for (var i = 0; i < data2.result.webcams.length; i++) {
                                             // create a "card" variable, it's going to be a div
                                             //alert(img);
                                             $("#lightSlider").empty().html('<li data-thumb="' + data2.result.webcams[i].image.current.thumbnail + '"><img src="' + data2.result.webcams[i].image.current.preview + '" /></li>');
@@ -216,11 +217,14 @@ var data2 = "";
                                         <p class="right"><span id="degree-num">22</span><span id="degree-F">&degF</span></p>
                                     </div>
 
-                                    <div class="col s5">
-                                        <h1 class="left"><span id="weather-icon">&#x26C5</span></h1>
-                                    </div>
+                                    <!-- <div class="col s5" id="weather-div">
+                                        <h1 class="left"><span id="weather-icon"></span></h1>
+                                    </div> -->
 
                                     <div class="col s12 center">
+                                        <div class="col s12 center" id="weather-desc">
+                                            
+                                        </div>
                                         <div class="col s6">
                                             <p>high: <span id="high-temp-text">47</span>&degF</p>
                                         </div>
@@ -294,7 +298,7 @@ var data2 = "";
 
 
                     <div class="col s12 m8 l7">
-                        <div id="map" style="height: 500px">
+                        <div id="map" style="height: 500px;">
                         </div>
                     </div>
 
@@ -362,8 +366,10 @@ var data2 = "";
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="blue-text text-lighten-1">Footer Content</h5>
-                    <p class="indigo-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <!-- Footer header -->
+                    <h5 class="blue-text text-lighten-1"></h5>
+                    <!-- Footer content - rows and columns can be used here for content -->
+                    <p class="indigo-text text-lighten-4"></p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="blue-text text-lighten-1">Created by:</h5>
@@ -379,7 +385,7 @@ var data2 = "";
 
         <div class="footer-copyright indigo">
             <div class="container">
-                © 2014 Copyright Text
+                © 2018 
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
