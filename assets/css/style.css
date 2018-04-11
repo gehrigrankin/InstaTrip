@@ -208,6 +208,11 @@ main .row {
 
 #results-main {
     margin-bottom: 5%;
+    text-align: center;
+}
+
+.result-divs {
+    margin: auto;
 }
 
 /* Materialize */
