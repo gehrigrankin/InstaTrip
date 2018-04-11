@@ -78,7 +78,7 @@
                             }
                             function travelpage() {
                                 var googleAPIkey = "AIzaSyDjoG9b-qqRgMcdpiNWXHei7WpRu1BmuBk";
-                                var mapaddress = $("#city-main-pic-text").text();
+                                var mapaddress = $("#city-main-pic-text").text();  // Text from user-input for city
                                 var endpoint = "https://maps.googleapis.com/maps/api/geocode/json?address=" + mapaddress + "&key=" + googleAPIkey;
                                 $.ajax({
                                     url: endpoint,
@@ -88,10 +88,10 @@
                                         console.log(err);
                                     }
                                 }).done(function (data) {
-                                    lat = data.results[0].geometry.bounds.northeast.lat;
-                                    lon = data.results[0].geometry.bounds.northeast.lng;
-                                    $("#lat").val(lat);
-                                    $("#lon").val(lon);
+                                    lat = data.results[0].geometry.bounds.northeast.lat; //Assigning NE latitude to variable
+                                    lon = data.results[0].geometry.bounds.northeast.lng; //Assigning NE longitude to variable
+                                    $("#lat").val(lat);  //Using hidden input elements to hold coordinate data
+                                    $("#lon").val(lon);  //Using hidden input elements to hold coordinate data
                                     lat2 = data.results[0].geometry.bounds.southwest.lat;
                                     lon2 = data.results[0].geometry.bounds.southwest.lng;
                                     $("#lat2").val(lat2);
@@ -100,8 +100,6 @@
                                     longitude = data.results[0].geometry.location.lng;
                                     $("#latitude").val(latitude);
                                     $("#longitude").val(longitude);
-                                    // lat  and lon perameters 
-                                    console.log(lat + lon + lat2 + lon2);
                                     // end ajax call 1
                                     //OpenWeatherMap API
                                     var weatherAPIKey = "743a4ef3c30935fe19ecbad14f631fae";
@@ -115,7 +113,8 @@
                                         // After the data comes back from the API
                                         .then(function (response) {
                                             console.log(response);
-                                            $("#degree-num").text(k2f(response.main.temp));
+                                            //Update page with response values
+                                            $("#degree-num").text(k2f(response.main.temp));  
                                             $("#high-temp-text").text(k2f(response.main.temp_max));
                                             $("#low-temp-text").text(k2f(response.main.temp_min));
                                             $("#thecity").text(response.name);
@@ -200,17 +199,21 @@
                                 travelpage()
                             });
                         </script>
+                        <!-- Elements to hold return location coodinate values -->
                         <input type="hidden" id="lat">
                         <input type="hidden" id="lon">
                         <input type="hidden" id="lat2">
                         <input type="hidden" id="lon2">
+                        <input type="hidden" id="longitude">
+                        <input type="hidden" id="latitude">
                     </div>
                 </div>
                 <div class="row center">
                     <div class="col s12 m4 l5">
-                        <div class="weather center">
+                        <!-- Location weather data -->
+                        <div class="weather center"> 
                             <div class="card white-text">
-                                <p class="center blue-text text-lighten-3" id="thecity">Los Angeles, CA</p>
+                                <p class="center blue-text text-lighten-3" id="thecity"></p>
                                 <div class="card-image waves-effect waves-block waves-light">
                                     <div class="col s7" style="padding: 0px auto;">
                                         <p class="right">
@@ -346,10 +349,11 @@
                             w-proportion="standart" w-latlong="34.0522,-118.2437">
                         </div>
                     </div>
-
+                    <!-- Local hotel search -->
                     <div class="col s12 m12 center search-results" id="form-div">
                             <div class="white-text">
                                 <p class="center blue-text text-lighten-3" id="hotel-header">Local Hotels</p>
+                                <!-- Input validator: only integers 1-20 -->
                                 <p>Number of results between 1 and 20:</p> 
                                 <input id="number" value="20">
                                 <button id="search-button" type="button" onclick="myFunction()">Submit</button>
@@ -369,6 +373,7 @@
                                 document.getElementById("number-input").innerHTML = text;
                                 }
                                 </script>
+                                <!-- div to hold returned results from hotel search -->
                                 <div id="results-main">
 
                                 </div>
