@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>InstaTrip/weather-background.png at master · gehrigrankin/InstaTrip</title>
+  <title>InstaTrip/pizza.png at master · gehrigrankin/InstaTrip</title>
     <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/27042947?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="gehrigrankin/InstaTrip" /><meta property="og:url" content="https://github.com/gehrigrankin/InstaTrip" /><meta property="og:description" content="Contribute to InstaTrip development by creating an account on GitHub." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjU1MjkyNzUyOjY3MWFmNTFmZGNjOWE3NjQxN2M3ZDBiZGFiOWEwMWVjZDkxZDU0NGI4NDY0Yjc3YWFmMDkwNGZlNmU3YTM0MGU=--fa352c31b13acf937b57e233c295e64bf49927c9">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjU1MjkyNzUyOmIyNDFkMDlmNWY4ZTRjZDQxY2MyNmMwMzYyZDExY2I3NGY1N2ZhMjg2MDU5MWNjMTMwOWY5YzVkNzI5NWJlNjk=--866ec67339e24ccc91b37212b75f9935801eda67">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="F7FD:34C7:7BC223:E9946B:5ACD511E" data-pjax-transient>
+  <meta name="request-id" content="F7FD:34C7:7BBEB7:E98FA3:5ACD5116" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="F7FD:34C7:7BC223:E9946B:5ACD511E" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="37088624" /><meta name="octolytics-actor-login" content="fszacarias" /><meta name="octolytics-actor-hash" content="082a1d9dcc9f07821c3a83faa50193eb1d79512c0f8470b39a1d4a311438c112" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="F7FD:34C7:7BBEB7:E98FA3:5ACD5116" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="37088624" /><meta name="octolytics-actor-login" content="fszacarias" /><meta name="octolytics-actor-hash" content="082a1d9dcc9f07821c3a83faa50193eb1d79512c0f8470b39a1d4a311438c112" />
 <meta name="hydro-events-url" content="https://github.com/hydro_browser_events" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="fszacarias">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="OTI3MjAzYTgxNmM0ZWFjYTA5NjlhMDY5YzM5NzFlZDJiMTRhNGIzZjQyY2M0MGYxZTU4MDBmM2NkYTliZjAxZXx7InJlbW90ZV9hZGRyZXNzIjoiNjguMTA0LjIwNS4xMDAiLCJyZXF1ZXN0X2lkIjoiRjdGRDozNEM3OjdCQzIyMzpFOTk0NkI6NUFDRDUxMUUiLCJ0aW1lc3RhbXAiOjE1MjM0MDUwOTIsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="Y2Y1YjkxYTE4ZjFhMjFlN2M5M2ExNzc4OWU2YmE2ZTJhMTk0NmNmMGE5NmVjMmZmNzE0NzVjY2M0MGEwNTY4OHx7InJlbW90ZV9hZGRyZXNzIjoiNjguMTA0LjIwNS4xMDAiLCJyZXF1ZXN0X2lkIjoiRjdGRDozNEM3OjdCQkVCNzpFOThGQTM6NUFDRDUxMTYiLCJ0aW1lc3RhbXAiOjE1MjM0MDUwODEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
 
@@ -85,7 +85,7 @@
   <meta name="octolytics-dimension-user_id" content="27042947" /><meta name="octolytics-dimension-user_login" content="gehrigrankin" /><meta name="octolytics-dimension-repository_id" content="128116693" /><meta name="octolytics-dimension-repository_nwo" content="gehrigrankin/InstaTrip" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="128116693" /><meta name="octolytics-dimension-repository_network_root_nwo" content="gehrigrankin/InstaTrip" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/gehrigrankin/InstaTrip/blob/master/assets/images/weather-background.png" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/gehrigrankin/InstaTrip/blob/master/assets/images/pizza.png" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -136,7 +136,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/gehrigrankin/InstaTrip/search" data-unscoped-search-url="/search" action="/gehrigrankin/InstaTrip/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
     <label class="form-control header-search-wrapper  js-chromeless-input-container">
-        <a class="header-search-scope no-underline" href="/gehrigrankin/InstaTrip/blob/master/assets/images/weather-background.png">This repository</a>
+        <a class="header-search-scope no-underline" href="/gehrigrankin/InstaTrip/blob/master/assets/images/pizza.png">This repository</a>
       <input type="text"
         class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s,/"
@@ -263,7 +263,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="C3O2a6L3g/pfrj/ZjE9zTwaPjnc8sEt7lW8h0jtJPjmzSdlDAC1pqF/kqFFsxVP/i/X0tuDw9tfWtLBYMNI+/A==" />
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d4AFtTFg+f9T0l/XT88WFg3zfbBGgsbTvz8XFrml2WvPumqdk7oTrVOYyF+vRTamgIkHcZrCe3/85Iacsj7Zrg==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -275,7 +275,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YMoA7BXw8hnZ33P5AKHCeOkWW2ex02WYiV+/4FKZDrDY8G/EtyoYS9mV5HHgK+LIZGwhpm2T2DTKhC5qWQIOdQ==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SXGkJPmbq8t7CZlN/5qwAVTZc9TN/f5UIqlu1zIDOd7xS8sMW0FBmXtDDsUfEJCx2aMJFRG9Q/hhcv9dOZg5Gw==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -311,7 +311,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="r3t3v114RCSH96s82E1SKBmZ40bGq4IH8IfgONMD4OMNH27IGXvOOnGlOB3vVGIcSjHzdK6UsLfBFwCL5gX63g==" />      <input type="hidden" name="repository_id" id="repository_id" value="128116693" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Kk1ipWVlAMBA/Pa1ph0UNrSUJSmaGFYUGzSiO5jZQAKIKXvSIWaK3rauZZSRBCQC5zw1G/InZKQqpEKIrd9aPw==" />      <input type="hidden" name="repository_id" id="repository_id" value="128116693" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/gehrigrankin/InstaTrip/subscription"
@@ -391,7 +391,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/gehrigrankin/InstaTrip/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="E76i1ZzetAsXj00oiyRFV0iZup5mbIL2c8eeE6jZTYSR5UPYcwzZPAnHMFQDsxK/fgicARwAy+2mYNs8/+9T1Q==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/gehrigrankin/InstaTrip/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1wieYxVpJ8+CkF5d/kKZ2EYwQ96zBAdypXv468Iuxo5VU39u+rtK+JzYIyF21c4wcKFlQcloTmlw3L3ElRjY3w==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -406,7 +406,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/gehrigrankin/InstaTrip/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6MzhsIyIOLDjZn0IlR1vQfhkpV1wmmwRpecNsMPDFY8UxFWUqvpa07os4/nOOxs45/I3LBD7jDstXUAkSJltyQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/gehrigrankin/InstaTrip/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yGOh9XIkvXPPDb89/pDU3XPh7KVwi8RdKSQKPEk3xSo0axXRVFbfEJZHIcyltqCkbHd+1BDqJHehnkeowm29bA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -425,7 +425,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/gehrigrankin/InstaTrip/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nBE9dBfc+PpsA62obniEpt/Cd3bpX+rf93+RcE0cqASbKjpKJAuC2JDfPftRCKKdFHhMxUcHboPeLkQ3WEhU0Q==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/gehrigrankin/InstaTrip/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="z7TQ04Su09fsvQbnGo0/nxiFijaSm2omJjCa/UPEOwzIj9ftt3mp9RBhlrQl/Rmk0z+xhTzD7noPYU+6VpDH2Q==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -506,9 +506,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gehrigrankin/InstaTrip/blob/9070e98371f6be802246c418d26cd8ab43cc6870/assets/images/weather-background.png">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gehrigrankin/InstaTrip/blob/9070e98371f6be802246c418d26cd8ab43cc6870/assets/images/pizza.png">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:0e1d3344755dbe1a0cfe14311a978c2b -->
+  <!-- blob contrib key: blob_contributors:v21:ee6d8ad2d034a58946c80c803e9c4756 -->
 
   <div class="file-navigation">
     
@@ -550,7 +550,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/gehrigrankin/InstaTrip/blob/Bob/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/Bob/assets/images/pizza.png"
                data-name="Bob"
                data-skip-pjax="true"
                rel="nofollow">
@@ -560,7 +560,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/gehrigrankin/InstaTrip/blob/Fernando/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/Fernando/assets/images/pizza.png"
                data-name="Fernando"
                data-skip-pjax="true"
                rel="nofollow">
@@ -570,7 +570,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/gehrigrankin/InstaTrip/blob/abe/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/abe/assets/images/pizza.png"
                data-name="abe"
                data-skip-pjax="true"
                rel="nofollow">
@@ -580,7 +580,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/gehrigrankin/InstaTrip/blob/fernando/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/fernando/assets/images/pizza.png"
                data-name="fernando"
                data-skip-pjax="true"
                rel="nofollow">
@@ -590,7 +590,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/gehrigrankin/InstaTrip/blob/gehrig/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/gehrig/assets/images/pizza.png"
                data-name="gehrig"
                data-skip-pjax="true"
                rel="nofollow">
@@ -600,7 +600,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/gehrigrankin/InstaTrip/blob/master/assets/images/weather-background.png"
+               href="/gehrigrankin/InstaTrip/blob/master/assets/images/pizza.png"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -611,7 +611,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" action="/gehrigrankin/InstaTrip/branches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7r7uQXXIxXhF/aG4sgp06VanvUge84lX8NX+q5G5EJZRlUfn06kGQSawYUcyP65bMAytLyyjY6J9e8VzxC8nJA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" action="/gehrigrankin/InstaTrip/branches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="FQopefc3BwwL2GmhVZ7+xTdTpqfpAwF1aVRh+crYHPWqIYDfUVbENWiVqV7VqyR3Ufi2wNtT64Dk+lohn04rRw==" />
           <svg class="octicon octicon-git-branch select-menu-item-icon" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -619,7 +619,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="assets/images/weather-background.png">
+            <input type="hidden" name="path" id="path" value="assets/images/pizza.png">
 </form>
       </div>
 
@@ -652,12 +652,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip"><span>InstaTrip</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip/tree/master/assets"><span>assets</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip/tree/master/assets/images"><span>images</span></a></span><span class="separator">/</span><strong class="final-path">weather-background.png</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip"><span>InstaTrip</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip/tree/master/assets"><span>assets</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/gehrigrankin/InstaTrip/tree/master/assets/images"><span>images</span></a></span><span class="separator">/</span><strong class="final-path">pizza.png</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/gehrigrankin/InstaTrip/contributors/master/assets/images/weather-background.png" class="commit-tease">
+  <include-fragment src="/gehrigrankin/InstaTrip/contributors/master/assets/images/pizza.png" class="commit-tease">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -673,8 +673,8 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/gehrigrankin/InstaTrip/raw/master/assets/images/weather-background.png">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/gehrigrankin/InstaTrip/commits/master/assets/images/weather-background.png">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/gehrigrankin/InstaTrip/raw/master/assets/images/pizza.png">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/gehrigrankin/InstaTrip/commits/master/assets/images/pizza.png">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -684,7 +684,7 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/gehrigrankin/InstaTrip/delete/master/assets/images/weather-background.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/ZNJEHujyiVMWwXeQdD+/jfHwdpC57MO+Oh07H7nsCOVT9zmlrjaW3CrwEpCKE219Lx/P8TPr66/dUvbrrHmvA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/gehrigrankin/InstaTrip/delete/master/assets/images/pizza.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="v/DVa7sfHnfMLIOxt72GNzC6PI/GD4qqWygp0udrnN3CL0KoLO86GDnkesuM1z/ZzAPQ3k8Ae5x2IIntY+ZWgw==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -692,7 +692,7 @@
 </form>  </div>
 
   <div class="file-info">
-    236 KB
+    8.01 KB
   </div>
 </div>
 
@@ -700,7 +700,7 @@
 
   <div itemprop="text" class="blob-wrapper data type-text">
       <div class="image">
-          <span class="border-wrap"><img src="/gehrigrankin/InstaTrip/blob/master/assets/images/weather-background.png?raw=true" alt="weather-background.png"></span>
+          <span class="border-wrap"><img src="/gehrigrankin/InstaTrip/blob/master/assets/images/pizza.png?raw=true" alt="pizza.png"></span>
       </div>
   </div>
 
@@ -727,7 +727,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.27765s from unicorn-2186037798-3bv0z">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.24785s from unicorn-2186037798-1kk3g">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
