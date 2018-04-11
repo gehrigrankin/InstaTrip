@@ -9,8 +9,6 @@ $(document).ready(function () {
     $("#lon2").hide();
     //Variable to old city value from user input
     var c = document.getElementById("citySearch").value;
-    //!!REMOVE AFTER DEBUGGING
-    console.log("Script City: " + c);
 
     //Function to run after city entered, submit clicked
     $("#citySubmit").on("click", function () {
@@ -21,9 +19,7 @@ $(document).ready(function () {
         var googleAPIkey = "&key=AIzaSyBKV1JVEtr31cn9Hpi6L8d-dCN8cCSQISc";
         //Variable to assemble the query URL
         var endpoint = "https://maps.googleapis.com/maps/api/geocode/json?address=" + c + googleAPIkey;
-        //!!REMOVE AFTER DEUBUGGING
-        console.log("Endpoint: " + endpoint);
-        //AJAX function to get google API data
+                //AJAX function to get google API data
         this.endpoint = endpoint;
         $.ajax({
             url: this.endpoint,
@@ -36,9 +32,7 @@ $(document).ready(function () {
             }
 
         }).done(function (data) {
-            //!!REMOVE AFTER DBUGGING
-            console.log(data);
-            //Assign variables to returned longitude and latitude values from the data object
+                        //Assign variables to returned longitude and latitude values from the data object
             var latitude = data.results[0].geometry.location.lat;
             var longitude = data.results[0].geometry.location.lng;
                 //Capitalize first letter of city string
@@ -72,8 +66,6 @@ $(document).ready(function () {
         //This function listens for clicks on one of the category buttons
         $(".type-buttons").on("click", function () {
             var category = $(this).attr("data-category"); //Assign variable equal to data-category value
-            //!!REMOVE AFTER DEBUGGING
-            console.log("Search Category: " + category);
             //Empty results-main div of any previous results
             $("#results-main").empty();
 
