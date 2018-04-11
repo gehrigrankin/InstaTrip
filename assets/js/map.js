@@ -36,7 +36,7 @@
         // Styles a map in night mode.
         var map = new google.maps.Map(document.getElementById('map'), {
         center:{lat:33.427, lng:-112.097},
-          zoom: 3,
+          zoom: 5,
           styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
