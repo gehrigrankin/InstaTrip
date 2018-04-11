@@ -48,7 +48,7 @@
           xhr.setRequestHeader("X-Mashape-Authorization", mashapeauthkey);
         }
       }).done(function(data2) {
-        console.log(data2);
+   
         for (var i = 0; i < data2.result.webcams.length; i++) {
           // create a "card" variable, it's going to be a div
           var card = $("<div>");
@@ -66,7 +66,7 @@
           cardtitle.text(data2.result.webcams[i].title);
           cardcontent.html(cardtitle);
           card.append(cardcontent);
-          $("#webcamsgohere").append(card);
+          $("#webcamsgohere").append(data2.result.webcams[i]);
         }
       });
       // end ajax call 2
