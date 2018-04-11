@@ -33,7 +33,6 @@ $("#search-button").on("click", function () {
             console.log("Input number: " + x);
             // Looping over every result item
             for (var i = 0; i < x; i++) {
-                //    for (var i = 0; i < resultData.length; i++) {
                 // Creating a var for the result display section of the page
                 var resultDiv = $("<div class='result-divs'>");
                 // Set a variable to the place's name from the API
